@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.header-wrapper {
+    padding: 0 50px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    padding: 0;
+}
+.header-logo a {
+    border: 1px solid #fff;
+    padding: 0;
+    margin-left: 0;
+}
+.header-logo a span{
+    color: #000;
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 0.496em .6em;
+}
+.header-logo a i{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5em 0.5em 0.5em 0em;
+}
+.header-icon {
+    color: #ccc !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.nav-item {
+    margin: 10px;
+    text-transform: uppercase;
+}
+.dropdown a{
+   padding: 15px;
+}
+.middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.user-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row !important;
+} 
+.user-content p {
+    color: #ccc !important;
+    margin: 0 10px;
+}
+.user-content button {
+    width: 150px;
+    height: 50px !important;
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+    .nav-toggler {
+        display: block !important;
+    }
+}
+.left-wrapper {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 !important;
+}
+.option-wrapper {
+    margin-top: 20px;
+}
+.option {
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.option a {
+    font-size: 20px !important;
+    color: #fff;
+}
+.option a:hover {
+    color: #999;
+}
+.option-inner {
+   display: grid;
+}
+.option-inner a {
+    font-size: 16px !important;
+}
+.right-wrapper {
+    padding: 0 !important;
+}
+.carousel-caption {
+    margin-bottom: 6rem;
+}
+.slider-button {
+    border: #fff solid 1px;
+    width: 20%;
+    padding: 5px 5px;
+    margin: auto;
+}
+.slider-button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.select-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.select-item p {
+    margin: 0;
+}
+.form-select {
+    width: 150px !important;
+    margin: 20px 20px;
+    margin-right: 50px;
+    box-shadow: #999 1px 2px;   
+}
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    
+}
+
+.item {
+    margin: 5px 15px;
+    margin-bottom: 20px;
+}
+.card-body {
+    text-align: center;
+}
+.card-body p {
+    color: #999;
+}
+.card-body a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.card-body a:hover {
+    color: #ccc;
+}
+.pagination {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.page-item a{
+    color: #000 !important;
+}
+.footer {
+    height: 80px;
+    background-color: #212529;
+    
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #ccc;
+}
