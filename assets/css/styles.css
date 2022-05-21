@@ -67,6 +67,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: row !important;
+    border-radius: 0px !important;
 } 
 .user-content p {
     color: #ccc !important;
@@ -90,9 +91,14 @@ html {
     justify-content: flex-start;
     flex-direction: column;
     padding: 0 !important;
+    position: relative;
+
 }
 .option-wrapper {
     margin-top: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .option {
     padding: 20px;
